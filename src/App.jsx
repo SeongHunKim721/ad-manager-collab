@@ -391,7 +391,7 @@ export default function App() {
                     const over=new Date(r.deadline)<now&&!r.paid&&!r.sponsored;
                     const sel=detail?.id===r.id;
                     return (
-                      <tr key={r.id} className={\`tr\${sel?" tr-s":""}\`} onClick={()=>setDetail(sel?null:r)} style={{ background:over?"#fff9f9":undefined }}>
+                      <tr key={r.id} className={`tr${sel?" tr-s":""}`} onClick={()=>setDetail(sel?null:r)} style={{ background:over?"#fff9f9":undefined }}>
                         <td>
                           <div style={{ fontWeight:600,color:"#1c1c1e" }}>{r.company}</div>
                           <div style={{ display:"flex",gap:4,marginTop:4,flexWrap:"wrap" }}>
