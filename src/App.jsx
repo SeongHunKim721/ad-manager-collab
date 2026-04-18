@@ -140,7 +140,7 @@ export default function App() {
 
   return (
     <div style={{ display:"flex", height:"100vh", fontFamily:"'Pretendard','Apple SD Gothic Neo',sans-serif", overflow:"hidden" }}>
-      <style>{\`
+      <style>{`
         *{box-sizing:border-box;margin:0;padding:0;}
         ::-webkit-scrollbar{width:4px;}::-webkit-scrollbar-thumb{background:#ddd;border-radius:4px;}
         input,select,textarea{width:100%;padding:9px 12px;border:1.5px solid #e2e8f0;border-radius:10px;font-size:14px;outline:none;background:#fff;font-family:inherit;}
@@ -152,7 +152,7 @@ export default function App() {
         th{font-size:11px;font-weight:700;color:#aaa;text-transform:uppercase;letter-spacing:.05em;border-bottom:1.5px solid #f0f0ec;padding-bottom:10px;}
         td{font-size:13px;color:#1c1c1e;border-bottom:1px solid #f7f7f5;}
         lbl{font-size:13px;font-weight:600;color:#333;margin-bottom:5px;display:block;}
-      \`}</style>
+      `}</style>
 
       {/* 아이콘 사이드바 */}
       <div style={{ width:60, background:"#1c1c1e", display:"flex", flexDirection:"column", alignItems:"center", paddingTop:16, paddingBottom:16, gap:8, flexShrink:0 }}>
